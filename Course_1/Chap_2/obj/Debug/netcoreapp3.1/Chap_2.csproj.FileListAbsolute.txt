@@ -11,3 +11,16 @@ C:\Users\Raihan Nishat\source\repos\Microsoft\Course_1\Course_1\Chap_2\obj\Debug
 C:\Users\Raihan Nishat\source\repos\Microsoft\Course_1\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.dll
 C:\Users\Raihan Nishat\source\repos\Microsoft\Course_1\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.pdb
 C:\Users\Raihan Nishat\source\repos\Microsoft\Course_1\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.genruntimeconfig.cache
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.exe
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.deps.json
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.runtimeconfig.json
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.runtimeconfig.dev.json
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.dll
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.pdb
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.csprojAssemblyReference.cache
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.AssemblyInfoInputs.cache
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.AssemblyInfo.cs
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.csproj.CoreCompileInputs.cache
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.dll
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.pdb
+E:\Code\GitHub\Structured-Programming\Course_1\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.genruntimeconfig.cache

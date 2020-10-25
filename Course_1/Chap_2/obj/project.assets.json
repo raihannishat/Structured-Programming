@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raihan Nishat\\source\\repos\\Microsoft\\Course_1\\Course_1\\Chap_2\\Chap_2.csproj",
+      "projectUniqueName": "E:\\Code\\GitHub\\Structured-Programming\\Course_1\\Chap_2\\Chap_2.csproj",
       "projectName": "Chap_2",
-      "projectPath": "C:\\Users\\Raihan Nishat\\source\\repos\\Microsoft\\Course_1\\Course_1\\Chap_2\\Chap_2.csproj",
+      "projectPath": "E:\\Code\\GitHub\\Structured-Programming\\Course_1\\Chap_2\\Chap_2.csproj",
       "packagesPath": "C:\\Users\\Raihan Nishat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raihan Nishat\\source\\repos\\Microsoft\\Course_1\\Course_1\\Chap_2\\obj\\",
+      "outputPath": "E:\\Code\\GitHub\\Structured-Programming\\Course_1\\Chap_2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
