@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_1\\Chap_1.csproj": {}
+    "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_4\\Chap_4.csproj": {}
   },
   "projects": {
-    "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_1\\Chap_1.csproj": {
+    "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_4\\Chap_4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_1\\Chap_1.csproj",
-        "projectName": "Chap_1",
-        "projectPath": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_1\\Chap_1.csproj",
+        "projectUniqueName": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_4\\Chap_4.csproj",
+        "projectName": "Chap_4",
+        "projectPath": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_4\\Chap_4.csproj",
         "packagesPath": "C:\\Users\\Raihan Nishat\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_1\\obj\\",
+        "outputPath": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

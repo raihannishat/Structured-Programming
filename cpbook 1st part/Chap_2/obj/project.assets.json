@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\C# practice\\cpbook 1st part\\Chap_2\\Chap_2.csproj",
+      "projectUniqueName": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_2\\Chap_2.csproj",
       "projectName": "Chap_2",
-      "projectPath": "E:\\Code\\C# practice\\cpbook 1st part\\Chap_2\\Chap_2.csproj",
+      "projectPath": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_2\\Chap_2.csproj",
       "packagesPath": "C:\\Users\\Raihan Nishat\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\C# practice\\cpbook 1st part\\Chap_2\\obj\\",
+      "outputPath": "E:\\Code\\GitHub\\Structured-Programming\\cpbook 1st part\\Chap_2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
