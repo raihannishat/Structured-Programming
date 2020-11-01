@@ -7,7 +7,7 @@ namespace Chap_1
         static void Main(string[] args)
         {
             #region Code: 1.1
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
             #endregion
         }
     }

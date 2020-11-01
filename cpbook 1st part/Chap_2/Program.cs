@@ -161,7 +161,7 @@ namespace Chap_2
             char ch;
             Console.Write("Enter the first letter of your name: ");
             ch = Console.ReadKey().KeyChar;
-            Console.WriteLine("The first letter of your name: {0}", ch);
+            Console.WriteLine("\nThe first letter of your name: {0}", ch);
             */
             #endregion
 
