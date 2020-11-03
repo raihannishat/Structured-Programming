@@ -82,8 +82,98 @@ namespace Chap_9
             */
             #endregion
 
+            #region Code: 9.7
+            /*
+            char[] str1 = "Bangla".ToCharArray();
+            char[] str2 = "desh".ToCharArray();
+            char[] str3 = new char[12];
+
+            int i, j, length1 = 6, length2 = 4;
+
+            for (i = 0, j = 0; i < length1; i++, j++)
+            {
+                str3[j] = str1[i];
+            }
+
+            for (i = 0, j = 6; i < length2; i++, j++)
+            {
+                str3[j] = str2[i];
+            }
+
+            str3[j] = '\0';
+
+            Console.WriteLine(str3);
+            */
+            #endregion
+
+            #region Code: 9.7 Ex
+            /*
+            char[] a = new char[100];
+            char[] b = new char[100];
+            int result;
+
+            a = Console.ReadLine().ToCharArray();
+            b = Console.ReadLine().ToCharArray();
+
+            result = string_compare(a, b);
+            Console.WriteLine("{0}", result);
+            */
+            #endregion
+
 
         }
+
+        #region Function 9.7 Ex - 1
+        /*
+        static int str_len(char[] str)
+        {
+            int i = 0, length = 0;
+
+            while (i < str.Length)
+            {
+                length++;
+                i++;
+            }
+
+            return length;
+        }
+        */
+        #endregion
+
+        #region Function 9.7 Ex - 2
+        /*
+        static int string_compare(char[] a, char[] b)
+        {
+            int i;
+
+            for (i = 0; a[i] != a.Length && b[i] != b.Length; i++)
+            {
+                if (a[i] < b[i])
+                {
+                    return -1;
+                }
+
+                if (a[i] > b[i])
+                {
+                    return 1;
+                }
+            }
+
+            if (str_len(a) < str_len(b))
+            {
+                return -1;
+            }
+            else if (str_len(a) > str_len(b))
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+        */
+        #endregion
 
         #region Function: 9.5
         /*
