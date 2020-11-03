@@ -1,0 +1,12 @@
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\bin\Debug\netcoreapp3.1\Chap_1.exe
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\bin\Debug\netcoreapp3.1\Chap_1.deps.json
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\bin\Debug\netcoreapp3.1\Chap_1.runtimeconfig.json
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\bin\Debug\netcoreapp3.1\Chap_1.runtimeconfig.dev.json
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\bin\Debug\netcoreapp3.1\Chap_1.dll
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\bin\Debug\netcoreapp3.1\Chap_1.pdb
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\obj\Debug\netcoreapp3.1\Chap_1.AssemblyInfoInputs.cache
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\obj\Debug\netcoreapp3.1\Chap_1.AssemblyInfo.cs
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\obj\Debug\netcoreapp3.1\Chap_1.csproj.CoreCompileInputs.cache
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\obj\Debug\netcoreapp3.1\Chap_1.dll
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\obj\Debug\netcoreapp3.1\Chap_1.pdb
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_1\obj\Debug\netcoreapp3.1\Chap_1.genruntimeconfig.cache

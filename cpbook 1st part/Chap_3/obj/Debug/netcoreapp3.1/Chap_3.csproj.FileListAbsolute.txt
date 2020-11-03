@@ -11,3 +11,16 @@ E:\Code\C# practice\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.csproj
 E:\Code\C# practice\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.dll
 E:\Code\C# practice\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.pdb
 E:\Code\C# practice\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.genruntimeconfig.cache
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\bin\Debug\netcoreapp3.1\Chap_3.exe
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\bin\Debug\netcoreapp3.1\Chap_3.deps.json
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\bin\Debug\netcoreapp3.1\Chap_3.runtimeconfig.json
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\bin\Debug\netcoreapp3.1\Chap_3.runtimeconfig.dev.json
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\bin\Debug\netcoreapp3.1\Chap_3.dll
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\bin\Debug\netcoreapp3.1\Chap_3.pdb
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.csprojAssemblyReference.cache
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.AssemblyInfoInputs.cache
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.AssemblyInfo.cs
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.csproj.CoreCompileInputs.cache
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.dll
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.pdb
+E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_3\obj\Debug\netcoreapp3.1\Chap_3.genruntimeconfig.cache
