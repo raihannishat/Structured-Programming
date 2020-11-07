@@ -120,7 +120,128 @@ namespace Chap_9
             */
             #endregion
 
+            #region Code: 9.8
+            
+            char[] s = new char[1002];
+            char[] word = new char[100];
+            int i, j, length, is_word_started;
 
+            s = Console.ReadLine().ToCharArray();
+
+            length = s.Length;
+            
+            is_word_started = 0;
+
+            for (i = 0, j = 0; i < length; i++)
+            {
+                if (s[i] >= 'a' && s[i] <= 'z')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                        word[j] = (char)('A' + (s[i] - 'a'));
+                        j++;
+                    }
+                    else
+                    {
+                        word[j] = s[i];
+                        j++;
+                    }
+                }
+                else if (s[i] >= 'A' && s[i] <= 'Z')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                    }
+                    word[j] = s[i];
+                    j++;
+                }
+                else if (s[i] >= '0' && s[i] <= '9')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                    }
+                    word[j] = s[i];
+                    j++;
+                }
+                else
+                {
+                    if (is_word_started == 1)
+                    {
+                        is_word_started = 0;
+                        word[j] = '\0';
+                        Console.WriteLine(word);
+                        j = 0;
+                        word = new char[100];
+                    }
+                }
+
+            }
+            Console.WriteLine(word);
+            #endregion
+
+            #region Code: 9.8 Ex
+            /*
+            char[] s = new char[1002];
+            char[] word = new char[100];
+            int i, j, length, is_word_started;
+
+            s = Console.ReadLine().ToCharArray();
+
+            length = s.Length;
+
+            is_word_started = 0;
+
+            for (i = 0, j = 0; i <= length; i++)
+            {
+                if (s[i] >= 'a' && s[i] <= 'z')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                        word[j] = (char)('A' + (s[i] - 'a'));
+                        j++;
+                    }
+                    else
+                    {
+                        word[j] = s[i];
+                        j++;
+                    }
+                }
+                else if (s[i] >= 'A' && s[i] <= 'Z')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                    }
+                    word[j] = s[i];
+                    j++;
+                }
+                else if (s[i] >= '0' && s[i] <= '9')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                    }
+                    word[j] = s[i];
+                    j++;
+                }
+                else
+                {
+                    if (is_word_started == 1)
+                    {
+                        is_word_started = 0;
+                        word[j] = '\0';
+                        Console.WriteLine(word);
+                        j = 0;
+                        word = new char[100];
+                    }
+                }
+            }
+            */
+            #endregion
         }
 
         #region Function 9.7 Ex - 1
