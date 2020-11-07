@@ -121,7 +121,7 @@ namespace Chap_9
             #endregion
 
             #region Code: 9.8
-            
+            /*
             char[] s = new char[1002];
             char[] word = new char[100];
             int i, j, length, is_word_started;
@@ -180,6 +180,7 @@ namespace Chap_9
 
             }
             Console.WriteLine(word);
+            */
             #endregion
 
             #region Code: 9.8 Ex
