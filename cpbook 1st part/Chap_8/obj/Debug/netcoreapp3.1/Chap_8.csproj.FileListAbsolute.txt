@@ -10,4 +10,3 @@ E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_8\obj\Debug\netcoreap
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_8\obj\Debug\netcoreapp3.1\Chap_8.dll
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_8\obj\Debug\netcoreapp3.1\Chap_8.pdb
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_8\obj\Debug\netcoreapp3.1\Chap_8.genruntimeconfig.cache
-E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_8\obj\Debug\netcoreapp3.1\Chap_8.csprojAssemblyReference.cache

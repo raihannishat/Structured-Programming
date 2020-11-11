@@ -17,7 +17,6 @@ E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\bin\Debug\netcoreap
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.runtimeconfig.dev.json
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.dll
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\bin\Debug\netcoreapp3.1\Chap_2.pdb
-E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.csprojAssemblyReference.cache
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.AssemblyInfoInputs.cache
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.AssemblyInfo.cs
 E:\Code\GitHub\Structured-Programming\cpbook 1st part\Chap_2\obj\Debug\netcoreapp3.1\Chap_2.csproj.CoreCompileInputs.cache
