@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_7", "Chap_7\Chap_7.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_8", "Chap_8\Chap_8.csproj", "{0E650528-7230-4FE9-A6FC-771E4349B5C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap_9", "Chap_9\Chap_9.csproj", "{B72A3756-FCA2-4782-9E2C-B713EA7BC96A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_9", "Chap_9\Chap_9.csproj", "{B72A3756-FCA2-4782-9E2C-B713EA7BC96A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

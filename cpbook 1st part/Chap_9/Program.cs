@@ -179,7 +179,7 @@ namespace Chap_9
                 }
 
             }
-            Console.WriteLine(word);
+
             */
             #endregion
 
@@ -195,7 +195,7 @@ namespace Chap_9
 
             is_word_started = 0;
 
-            for (i = 0, j = 0; i <= length; i++)
+            for (i = 0, j = 0; i < length; i++)
             {
                 if (s[i] >= 'a' && s[i] <= 'z')
                 {
@@ -238,6 +238,54 @@ namespace Chap_9
                         Console.WriteLine(word);
                         j = 0;
                         word = new char[100];
+                    }
+                }
+            }
+
+            Console.WriteLine(word);
+            */
+            #endregion
+
+            #region Code: 9.9
+            /*
+            char[] s = new char[1002];
+            char ch;
+            int i, length, is_word_started;
+
+            s = Console.ReadLine().ToCharArray();
+            length = s.Length;
+            is_word_started = 0;
+
+            for (i = 0; i < length; i++)
+            {
+                if (s[i] >= 'a' && s[i] <= 'z')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                        ch = (char)('A' + s[i] - 'a');
+                        Console.Write("{0}", ch);
+                    }
+                    else
+                    {
+                        Console.Write("{0}", s[i]);
+                    }
+                }
+                else if (s[i] >= 'A' && s[i] <= 'z')
+                {
+                    if (is_word_started == 0)
+                    {
+                        is_word_started = 1;
+                    }
+
+                    Console.Write("{0}", s[i]);
+                }
+                else
+                {
+                    if (is_word_started == 1)
+                    {
+                        is_word_started = 0;
+                        Console.WriteLine();
                     }
                 }
             }
