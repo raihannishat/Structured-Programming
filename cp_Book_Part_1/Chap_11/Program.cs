@@ -26,7 +26,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.2
+            #region Code: 11.2
             /*
             int[,] namta = new int[10, 10];
             int row, col;
@@ -50,7 +50,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.2 Ex
+            #region Code: 11.2 Ex
             /*
             int[,] namta = new int[10, 10];
             int row, col, sum = 0, even = 0, odd = 0;
@@ -88,7 +88,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.3
+            #region Code: 11.3
             /*
             string[] saarc = new string[]
             {
@@ -111,7 +111,7 @@ namespace Chap_11
 
             #endregion
 
-            #region Code: 10.4
+            #region Code: 11.4
             /*
             string[] saarc = new string[]
             {
@@ -138,7 +138,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.5
+            #region Code: 11.5
             /*
             string[] saarc = new string[]
             {
@@ -165,7 +165,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.5 Ex - 1
+            #region Code: 11.5 Ex - 1
             /*
             int[,] ara = new int[5, 5]
             {
@@ -190,7 +190,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.5 Ex - 2
+            #region Code: 11.5 Ex - 2
             /*
             int[,] ara = new int[5, 5]
             {
@@ -215,7 +215,7 @@ namespace Chap_11
             */
             #endregion
 
-            #region Code: 10.6
+            #region Code: 11.6
             /*
             int[,] ara1 = new int[5, 5]
             {
