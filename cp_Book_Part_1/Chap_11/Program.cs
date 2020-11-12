@@ -89,7 +89,179 @@ namespace Chap_11
             #endregion
 
             #region Code: 10.3
-            
+            /*
+            string[] saarc = new string[]
+            {
+                "Bangladesh",
+                "India",
+                "Pakistan",
+                "Sri Lanka",
+                "Nepal",
+                "Bhutan",
+                "Maldives"
+            };
+
+            int row;
+
+            for (row = 0; row < 7; row++)
+            {
+                Console.WriteLine("{0}", saarc[row]);
+            }
+            */
+
+            #endregion
+
+            #region Code: 10.4
+            /*
+            string[] saarc = new string[]
+            {
+                "Bangladesh",
+                "India",
+                "Pakistan",
+                "Sri Lanka",
+                "Nepal",
+                "Bhutan",
+                "Maldives"
+            };
+
+            int row, col, name_length;
+
+            for (row = 0; row < 7; row++)
+            {
+                name_length = saarc[row].Length;
+                for (col = 0; col < name_length; col++)
+                {
+                    Console.Write("{0}", saarc[row].ToCharArray()[col]);
+                }
+                Console.WriteLine();
+            }
+            */
+            #endregion
+
+            #region Code: 10.5
+            /*
+            string[] saarc = new string[]
+            {
+                "Bangladesh",
+                "India",
+                "Pakistan",
+                "Sri Lanka",
+                "Nepal",
+                "Bhutan",
+                "Maldives"
+            };
+
+            int row, col, name_length;
+
+            for (row = 0; row < 7; row++)
+            {
+                name_length = saarc[row].Length;
+                for (col = 0; col < name_length; col++)
+                {
+                    Console.Write("[{0},{1}] = {2}, ", row, col, saarc[row].ToCharArray()[col]);
+                }
+                Console.WriteLine();
+            }
+            */
+            #endregion
+
+            #region Code: 10.5 Ex - 1
+            /*
+            int[,] ara = new int[5, 5]
+            {
+                { 6, 4, 7, 8, 9 },
+                { 3, 7, 1, 9, 9 },
+                { 8, 6, 4, 2, 7 },
+                { 2, 4, 2, 5, 9 },
+                { 4, 1, 6, 7, 3 }
+            };
+
+            int row, col, sum = 0;
+
+            for (row = 0; row < 5; row++)
+            {
+                for (col = 0; col < 5; col++)
+                {
+                    sum += ara[row, col];
+                }
+                Console.WriteLine("Sum of row: {0} is: {1}", row + 1, sum);
+                sum = 0;
+            }
+            */
+            #endregion
+
+            #region Code: 10.5 Ex - 2
+            /*
+            int[,] ara = new int[5, 5]
+            {
+                { 6, 4, 7, 8, 9 },
+                { 3, 7, 1, 9, 9 },
+                { 8, 6, 4, 2, 7 },
+                { 2, 4, 2, 5, 9 },
+                { 4, 1, 6, 7, 3 }
+            };
+
+            int row, col, sum = 0;
+
+            for (col = 0; col < 5; col++)
+            {
+                for (row = 0; row < 5; row++)
+                {
+                    sum += ara[row, col];
+                }
+                Console.WriteLine("Sum of col: {0} is: {1}", col + 1, sum);
+                sum = 0;
+            }
+            */
+            #endregion
+
+            #region Code: 10.6
+            /*
+            int[,] ara1 = new int[5, 5]
+            {
+                { 1, 2, 3, 4, 5 },
+                { 10, 20, 30, 40, 50 },
+                { 100, 200, 300, 400, 500 },
+                { 1000, 2000, 3000, 4000, 5000 },
+                { 10000, 20000, 30000, 40000, 50000 }
+            };
+
+            int[,] ara2 = new int[5, 5];
+            int r, c;
+
+            Console.WriteLine("Content of first array (ara1): ");
+
+            for (r = 0; r < 5; r++)
+            {
+                for (c = 0; c < 5; c++)
+                {
+                    Console.Write("{0} ", ara1[r, c]);
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+
+            // now start copy
+            for (r = 0; r < 5; r++)
+            {
+                for (c = 0; c < 5; c++)
+                {
+                    ara2[c, r] = ara1[r, c];
+                }
+            }
+
+            Console.WriteLine("Content of second array (ara2): ");
+
+            for (r = 0; r < 5; r++)
+            {
+                for (c = 0; c < 5; c++)
+                {
+                    Console.Write("{0} ", ara2[r, c]);
+                }
+                Console.WriteLine();
+            }
+            */
             #endregion
         }
     }
