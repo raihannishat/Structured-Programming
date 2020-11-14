@@ -132,6 +132,67 @@ namespace Chap_13
             }
             */
             #endregion
+
+            #region Code: 13.1
+            /*
+            char[] word = new char[80];
+            char[] reverse_word = new char[80];
+            int i, j, len;
+
+            word = Console.ReadLine().ToCharArray();
+            len = word.Length;
+
+            for (i = 0, j = len - 1; i < len; i++, j--)
+            {
+                reverse_word[i] = word[j];
+            }
+
+            reverse_word[i] = '\0';
+            Console.WriteLine(reverse_word);
+
+            string str1 = new string(word);
+            string str2 = new string(reverse_word);
+
+            if (0 == str1.CompareTo(str2))
+            {
+                Console.WriteLine("{0} is palindrome.", str1);
+            }
+            else
+            {
+                Console.WriteLine("{0} is not palindrome.", str1);
+            }
+            */
+            #endregion
+
+            #region Code: 13.1 Ex - 1
+            /*
+            char[] word = new char[80];
+            int i, j, len, rev = 0;
+
+            word = Console.ReadLine().ToCharArray();
+            len = word.Length;
+
+            for (i = 0, j = len - 1; i < len; i++, j--)
+            {
+                if (word[i] != word[j])
+                {
+                    rev = 1;
+                    break;
+                }
+            }
+
+            string str = new string(word);
+
+            if (0 == rev)
+            {
+                Console.WriteLine("{0} is palindrome.", str);
+            }
+            else
+            {
+                Console.WriteLine("{0} is not palindrome.", str);
+            }
+            */
+            #endregion
         }
     }
 }
