@@ -193,6 +193,41 @@ namespace Chap_13
             }
             */
             #endregion
+
+            #region Code: 13.1 Ex - 2
+            /*
+            Console.Write("Enter a number (2 - 99): ");
+            int i, number, prime_position, total;
+
+            number = Convert.ToInt32(Console.ReadLine());
+
+            int[] primes = 
+            {
+                2,  3,  5,  7,  11,
+                13, 17, 19, 23, 29, 
+                31, 37, 41, 43, 47, 
+                53, 59, 61, 67, 71, 
+                73, 79, 83, 89, 97
+            };
+
+            for (i = 0; i < number; i++)
+            {
+                prime_position = primes[i];
+                total = 0;
+
+                while (prime_position <= number)
+                {
+                    total = total + (number / prime_position);
+                    prime_position = prime_position * primes[i];
+                }
+
+                if (total != 0 && primes[i] <= number)
+                {
+                    Console.WriteLine("({0}, {1})", primes[i], total);
+                }
+            }
+            */
+            #endregion
         }
     }
 }
