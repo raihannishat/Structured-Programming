@@ -331,7 +331,7 @@ namespace Chap_13
             #endregion
 
             #region Code: 13.4 Ex - 1
-            
+            /*
             int[,] grid = new int[10, 10];
             
             int i, j, x, y, a, b, n;
@@ -423,7 +423,7 @@ namespace Chap_13
                     }
                 }
             }
-            
+            */
             #endregion
         }
     }
