@@ -228,6 +228,203 @@ namespace Chap_13
             }
             */
             #endregion
+
+            #region Code: 13.2
+            /*
+            int[] ara1 = { 3, 1, 5, 2, 4 };
+            int[] ara2 = new int[5];
+
+            int i, minimum, index_2;
+
+            for (index_2 = 0; index_2 < 5; index_2++)
+            {
+                minimum = 10000;
+
+                for (i = 0; i < 5; i++)
+                {
+                    if (ara1[i] < minimum)
+                    {
+                        minimum = ara1[i];
+                    }
+                }
+
+                ara2[index_2] = minimum;
+            }
+
+            for (i = 0; i < 5; i++)
+            {
+                Console.WriteLine("{0}", ara2[i]);
+            }
+            */
+            #endregion
+
+            #region Code: 13.3
+            /*
+            int[] ara1 = { 3, 1, 5, 2, 4 };
+            int[] ara2 = new int[5];
+
+            int i, minimum, index_2, minimum_index = 0;
+
+            for (index_2 = 0; index_2 < 5; index_2++)
+            {
+                minimum = 10000;
+
+                for (i = 0; i < 5; i++)
+                {
+                    if (ara1[i] < minimum)
+                    {
+                        minimum = ara1[i];
+                        minimum_index = i;
+                    }
+                }
+
+                ara1[minimum_index] = 10000;
+                ara2[index_2] = minimum;
+            }
+
+            for (i = 0; i < 5; i++)
+            {
+                Console.WriteLine("{0}", ara2[i]);
+            }
+            */
+            #endregion
+
+            #region Code: 13.4
+            /*
+            int x, y;
+            char c;
+
+            Console.Write("Please enter the initial position: ");
+
+            var line = Console.ReadLine().Split(' ');
+            x = Convert.ToInt32(line[0]);
+            y = Convert.ToInt32(line[1]);
+
+            while (true)
+            {
+                c = Convert.ToChar(Console.ReadLine());
+
+                if (c.Equals('S'))
+                {
+                    break;
+                }
+                else if (c.Equals('U'))
+                {
+                    x--;
+                }
+                else if (c.Equals('D'))
+                {
+                    x++;
+                }
+                else if (c.Equals('R'))
+                {
+                    y++;
+                }
+                else if (c.Equals('L'))
+                {
+                    y--;
+                }
+            }
+
+            Console.WriteLine("Final position of the robot is: {0}, {1}", x, y);
+            */
+            #endregion
+
+            #region Code: 13.4 Ex - 1
+            /*
+            int[,] grid = new int[10, 10];
+            
+            int i, j, x, y, a, b, n;
+            char c;
+            string[] line = null;
+
+            for (i = 0; i < 10; i++)
+            {
+                for (j = 0; j < 10; j++)
+                {
+                    grid[i, j] = 1;
+                }
+            }
+
+            Console.Write("Enter the number of block cells: ");
+            n = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Now enter the block cells: ");
+
+            for (i = 0; i < n; i++)
+            {
+                line = Console.ReadLine().Split(' ');
+                a = Convert.ToInt32(line[0]);
+                b = Convert.ToInt32(line[1]);
+                grid[a, b] = 0;
+            }
+
+            Console.Write("Please enter the initial position: ");
+            line = Console.ReadLine().Split(' ');
+            x = Convert.ToInt32(line[0]);
+            y = Convert.ToInt32(line[1]);
+
+            Console.WriteLine("Now enter the cells.");
+
+            while (true)
+            {
+                c = Convert.ToChar(Console.ReadLine());
+
+                if (c.Equals('S'))
+                {
+                    break;
+                }
+                else if (c.Equals('U'))
+                {
+                    x--;
+                    if (grid[x, y].Equals(1))
+                    {
+                        Console.WriteLine("Now position of the cell: {0}, {1}", x, y);
+                    }
+                    else
+                    {
+                        Console.WriteLine("The cell is blocked.");
+                    }
+                }
+                else if (c.Equals('D'))
+                {
+                    x++;
+                    if (grid[x, y].Equals(1))
+                    {
+                        Console.WriteLine("Now position of the cell: {0}, {1}", x, y);
+                    }
+                    else
+                    {
+                        Console.WriteLine("The cell is blocked.");
+                    }
+                }
+                else if (c.Equals('R'))
+                {
+                    y++;
+                    if (grid[x, y].Equals(1))
+                    {
+                        Console.WriteLine("Now position of the cell: {0}, {1}", x, y);
+                    }
+                    else
+                    {
+                        Console.WriteLine("The cell is blocked.");
+                    }
+                }
+                else if (c.Equals('L'))
+                {
+                    y--;
+                    if (grid[x, y].Equals(1))
+                    {
+                        Console.WriteLine("Now position of the cell: {0}, {1}", x, y);
+                    }
+                    else
+                    {
+                        Console.WriteLine("The cell is blocked.");
+                    }
+                }
+            }
+            */
+            #endregion
         }
     }
 }
