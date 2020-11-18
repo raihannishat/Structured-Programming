@@ -214,7 +214,7 @@ namespace Chap_03
             */
             #endregion
 
-            #region Code: 3.13 Ex
+            #region Code: 3.12 Ex
             /*
             char ch = 'a';
 
