@@ -17,6 +17,7 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
 
@@ -26,6 +27,7 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
             */
@@ -42,10 +44,12 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write(" ");
                 }
+
                 for (col = 1; col <= (2 * row) - 1; col++)
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
 
@@ -55,10 +59,12 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write(" ");
                 }
+
                 for (col = 1; col <= (2 * row) - 1; col++)
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
             */
@@ -75,10 +81,12 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write(" ");
                 }
+
                 for (col = 1; col <= row; col++)
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
 
@@ -88,10 +96,12 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write(" ");
                 }
+
                 for (col = 1; col <= row; col++)
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
             */
@@ -123,6 +133,7 @@ namespace Chap_13_Some_Programming_Problems
                 {
                     Console.Write("c");
                 }
+
                 Console.WriteLine();
             }
             */
