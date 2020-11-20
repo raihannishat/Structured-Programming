@@ -340,6 +340,7 @@ namespace Chap_13_Some_Programming_Problems
             int i, j, x, y, a, b, n;
             char c;
             string[] line = null;
+
             for (i = 0; i < 10; i++)
             {
                 for (j = 0; j < 10; j++)
@@ -347,10 +348,12 @@ namespace Chap_13_Some_Programming_Problems
                     grid[i, j] = 1;
                 }
             }
+
             Console.Write("Enter the number of block cells: ");
             n = Convert.ToInt32(Console.ReadLine());
             
             Console.Write("Now enter the block cells: ");
+
             for (i = 0; i < n; i++)
             {
                 line = Console.ReadLine().Split(' ');
@@ -358,14 +361,19 @@ namespace Chap_13_Some_Programming_Problems
                 b = Convert.ToInt32(line[1]);
                 grid[a, b] = 0;
             }
+
             Console.Write("Please enter the initial position: ");
             line = Console.ReadLine().Split(' ');
+
             x = Convert.ToInt32(line[0]);
             y = Convert.ToInt32(line[1]);
+
             Console.WriteLine("Now enter the cells.");
+
             while (true)
             {
                 c = Convert.ToChar(Console.ReadLine());
+
                 if (c.Equals('S'))
                 {
                     break;

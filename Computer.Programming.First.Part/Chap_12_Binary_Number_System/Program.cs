@@ -10,16 +10,20 @@ namespace Chap_12_Binary_Number_System
             /*
             char[] binary = new char[65];
             int len, dcml, power, i;
+
             Console.Write("Enter the binary number: ");
             binary = Console.ReadLine().ToCharArray();
+
             dcml = 0;
             len = binary.Length;
             power = len - 1;
+
             for (i = 0; i < len; i++)
             {
                 dcml += (int) ((binary[i] - '0') * Math.Pow(2, power));
                 power--;
             }
+
             Console.WriteLine("Decimal value is: {0}", dcml);
             */
             #endregion

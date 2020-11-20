@@ -70,6 +70,7 @@ namespace Chap_02_Data_Type_Input_Output
             int a = 50.45, b = 60, sum;
             
             sum = a + b;
+
             Console.WriteLine("{0} + {1} = {2}", a, b, sum);
             */
             #endregion
