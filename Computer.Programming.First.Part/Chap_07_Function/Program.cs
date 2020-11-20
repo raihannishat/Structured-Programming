@@ -19,9 +19,11 @@ namespace Chap_07_Function
             #region Code: 7.1
             /*
             double a, b, c;
+
             a = 2.5;
             b = 2.5;
             c = a + b;
+
             Console.WriteLine("{0:0.00}", c);
             */
             #endregion
@@ -29,8 +31,10 @@ namespace Chap_07_Function
             #region Code: 7.2
             /*
             double a, b, c;
+
             a = b = 2.5;
             c = add(a, b);
+
             Console.WriteLine("{0:0.00}", c);
             */
             #endregion
@@ -38,9 +42,11 @@ namespace Chap_07_Function
             #region Code: 7.3
             /*
             double a, b, c;
+
             a = 2.8;
             b = 2.7;
             c = add(a, b);
+
             Console.WriteLine("{0:0.00}", c);
             */
             #endregion
@@ -48,9 +54,11 @@ namespace Chap_07_Function
             #region Code: 7.4
             /*
             double a, b, c;
+
             a = 2.8;
             b = 2.7;
             c = add(a, b);
+
             Console.WriteLine("{0:0.00}", c);
             */
             #endregion
@@ -74,8 +82,10 @@ namespace Chap_07_Function
             #region Code: 7.7
             /*
             int[] ara = { -100, 0, 53, 22, 83, 23, 89, -132, 201, 3, 85 };
+
             int n = 11;
             int max = find_max(ara, n);
+
             Console.WriteLine("{0}", max);
             */
             #endregion
@@ -83,8 +93,10 @@ namespace Chap_07_Function
             #region Code: 7.8
             /*
             int[] ara = { 1, 2, 3, 4, 5 };
+
             Console.WriteLine("{0}", ara[0]);
             test_function(ara);
+
             Console.WriteLine("{0}", ara[0]);
             */
             #endregion
@@ -92,8 +104,10 @@ namespace Chap_07_Function
             #region Code: 7.8 Ex
             /*
             double a, r;
+
             r = Convert.ToDouble(Console.ReadLine());
             a = area(r);
+
             Console.WriteLine("Area: {0:0.00}", a);
             */
             #endregion
@@ -145,6 +159,7 @@ namespace Chap_07_Function
         {
             int y = x;
             x = 2 * y;
+
             return (x * y);
         }
         */
@@ -156,6 +171,7 @@ namespace Chap_07_Function
         {
             int max = ara[0];
             int i;
+
             for (i = 1; i < n; i++)
             {
                 if (ara[i] > max)
@@ -163,6 +179,7 @@ namespace Chap_07_Function
                     max = ara[i];
                 }
             }
+
             return max;
         }
         */
@@ -174,6 +191,7 @@ namespace Chap_07_Function
         {
             int min = ara[0];
             int i;
+
             for (i = 1; i < n; i++)
             {
                 if (ara[i] < min)
@@ -181,6 +199,7 @@ namespace Chap_07_Function
                     min = ara[i];
                 }
             }
+
             return min;
         }
         */
@@ -191,11 +210,14 @@ namespace Chap_07_Function
         static int find_ava(int[] ara, int n)
         {
             int ava = 0, sum = 0;
+
             for (int i = 0; i < ara.Length; i++)
             {
                 sum = sum + ara[i];
             }
+
             ava = sum / ara.Length;
+
             return ava;
         }
         */

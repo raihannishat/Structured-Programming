@@ -9,6 +9,7 @@ namespace Chap_09_String
             #region Code: 9.1
             /*
             char[] country = { 'B', 'a', 'n', 'g', 'l', 'a', 'd', 'e', 's', 'h'};
+
             Console.WriteLine(country);
             */
             #endregion
@@ -20,6 +21,7 @@ namespace Chap_09_String
                 'B', 'a', 'n', 'g', 'l', 'a', 'd', 'e', 's', 'h',
                 ' ', 'i', 's', ' ', 'm', 'y', ' ', 'c', 'o', 'u', 'n', 't', 'r', 'y'
             };
+
             Console.WriteLine(country);
             */
             #endregion
@@ -31,6 +33,7 @@ namespace Chap_09_String
                 'B', 'a', 'n', 'g', 'l', 'a', 'd', 'e', 's', 'h',
                 '\0', 'i', 's', ' ', 'm', 'y', ' ', 'c', 'o', 'u', 'n', 't', 'r', 'y'
             };
+
             Console.WriteLine(country);
             */
             #endregion
@@ -39,8 +42,10 @@ namespace Chap_09_String
             /*
             char[] country = { 'B', 'a', 'n', 'g', 'l', 'a', 'd', 'e', 's', 'h' };
             int i, length;
+
             Console.WriteLine(country);
             length = 10;
+
             for (i = 0; i < length; i++)
             {
                 if (country[i] >= 'a' && country[i] <= 'z')
@@ -57,6 +62,7 @@ namespace Chap_09_String
             /*
             char[] country = new char[100];
             int length;
+
             while (true)
             {
                 country = Console.ReadLine().ToCharArray();
@@ -69,6 +75,7 @@ namespace Chap_09_String
             #region Code: 9.6
             /*
             char[] ara = new char[100];
+
             while (true)
             {
                 ara = Console.ReadLine().ToCharArray();
@@ -82,16 +89,21 @@ namespace Chap_09_String
             char[] str1 = "Bangla".ToCharArray();
             char[] str2 = "desh".ToCharArray();
             char[] str3 = new char[12];
+
             int i, j, length1 = 6, length2 = 4;
+
             for (i = 0, j = 0; i < length1; i++, j++)
             {
                 str3[j] = str1[i];
             }
+
             for (i = 0, j = 6; i < length2; i++, j++)
             {
                 str3[j] = str2[i];
             }
+
             str3[j] = '\0';
+
             Console.WriteLine(str3);
             */
             #endregion
@@ -101,8 +113,10 @@ namespace Chap_09_String
             char[] a = new char[100];
             char[] b = new char[100];
             int result;
+
             a = Console.ReadLine().ToCharArray();
             b = Console.ReadLine().ToCharArray();
+
             result = string_compare(a, b);
             Console.WriteLine("{0}", result);
             */
@@ -113,10 +127,11 @@ namespace Chap_09_String
             char[] s = new char[1002];
             char[] word = new char[100];
             int i, j, length, is_word_started;
+
             s = Console.ReadLine().ToCharArray();
             length = s.Length;
-            
             is_word_started = 0;
+
             for (i = 0, j = 0; i < length; i++)
             {
                 if (s[i] >= 'a' && s[i] <= 'z')
@@ -171,9 +186,11 @@ namespace Chap_09_String
             char[] s = new char[1002];
             char[] word = new char[100];
             int i, j, length, is_word_started;
+
             s = Console.ReadLine().ToCharArray();
             length = s.Length;
             is_word_started = 0;
+
             for (i = 0, j = 0; i < length; i++)
             {
                 if (s[i] >= 'a' && s[i] <= 'z')
@@ -220,6 +237,7 @@ namespace Chap_09_String
                     }
                 }
             }
+
             Console.WriteLine(word);
             */
             #endregion
@@ -229,9 +247,11 @@ namespace Chap_09_String
             char[] s = new char[1002];
             char ch;
             int i, length, is_word_started;
+
             s = Console.ReadLine().ToCharArray();
             length = s.Length;
             is_word_started = 0;
+
             for (i = 0; i < length; i++)
             {
                 if (s[i] >= 'a' && s[i] <= 'z')
@@ -273,11 +293,13 @@ namespace Chap_09_String
         static int str_len(char[] str)
         {
             int i = 0, length = 0;
+
             while (i < str.Length)
             {
                 length++;
                 i++;
             }
+
             return length;
         }
         */
@@ -288,17 +310,20 @@ namespace Chap_09_String
         static int string_compare(char[] a, char[] b)
         {
             int i;
+
             for (i = 0; a[i] != a.Length && b[i] != b.Length; i++)
             {
                 if (a[i] < b[i])
                 {
                     return -1;
                 }
+
                 if (a[i] > b[i])
                 {
                     return 1;
                 }
             }
+
             if (str_len(a) < str_len(b))
             {
                 return -1;
@@ -320,6 +345,7 @@ namespace Chap_09_String
         static int string_length(char[] str)
         {
             int i, length = 0;
+
             for (i = 0; i < str.Length; i++)
             {
                 length++;
@@ -335,6 +361,7 @@ namespace Chap_09_String
         static int string_length(char[] str)
         {
             int i = 0, length = 0;
+
             while (i < str.Length)
             {
                 length++;

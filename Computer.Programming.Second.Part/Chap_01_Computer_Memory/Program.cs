@@ -9,6 +9,7 @@ namespace Chap_01_Computer_Memory
             #region Code: 1-1
             /*
             int i;
+
             for (i = 33; i <= 123; i++)
             {
                 Console.WriteLine($"ASCII Code for {Convert.ToChar(i)} is {i}");
@@ -19,8 +20,10 @@ namespace Chap_01_Computer_Memory
             #region Code: 1-2
             /*
             char small_letter, capital_letter;
+
             Console.Write("Please enter a small letter: ");
             small_letter = char.Parse(Console.ReadLine());
+
             capital_letter = (char) (small_letter - 32);
             Console.WriteLine($"The capital letter is: {capital_letter}");
             */
@@ -37,12 +40,16 @@ namespace Chap_01_Computer_Memory
                 int n1 = 100, n2 = 100000;
                 int* n1ptr = &n1;
                 int* n2ptr = &n2;
+
                 Console.WriteLine($"Value of ch1 = {ch1}");
                 Console.WriteLine($"Address of ch1 = {(long)ch1ptr:X}");
+
                 Console.WriteLine($"Value of ch2 = {ch2}");
                 Console.WriteLine($"Address of ch2 = {(long)ch2ptr:X}");
+
                 Console.WriteLine($"Value of n1 = {n1}");
                 Console.WriteLine($"Address of ch1 = {(long)n1ptr:X}");
+
                 Console.WriteLine($"Value of n1 = {n2}");
                 Console.WriteLine($"Address of ch1 = {(long)n2ptr:X}");
             }
@@ -55,10 +62,12 @@ namespace Chap_01_Computer_Memory
             {
                 int[] ara = { 50, 60, 70, 80, 90 };
                 Console.WriteLine($"Value of Array: {ara[0]}, {ara[1]}, {ara[2]}, {ara[3]}, {ara[4]}");
+
                 fixed (int* addressOfArray = ara)
                 {
                     Console.WriteLine($"Address of ara is {(long)addressOfArray:X}");
                 }
+
                 for (int i = 0; i < ara.Length; i++)
                 {
                     fixed (int* addressOfArray = &ara[i])

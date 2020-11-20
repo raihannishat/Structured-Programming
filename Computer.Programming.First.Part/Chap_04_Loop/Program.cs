@@ -26,6 +26,7 @@ namespace Chap_04_Loop
             #region Code: 4.2
             /*
             int n = 1;
+
             while (n <= 10)
             {
                 Console.WriteLine("{0}", n);
@@ -37,6 +38,7 @@ namespace Chap_04_Loop
             #region Code: 4.3
             /*
             int n = 1;
+
             while (n <= 10)
             {
                 Console.WriteLine("{0}", n);
@@ -49,10 +51,12 @@ namespace Chap_04_Loop
             #region Code: 4.4
             /*
             int n = 1;
+
             while (n <= 100)
             {
                 Console.WriteLine("{0}", n);
                 n++;
+
                 if (n > 10)
                 {
                     break;
@@ -64,13 +68,16 @@ namespace Chap_04_Loop
             #region Code: 4.5
             /*
             int n = 0;
+
             while (n < 10)
             {
                 n = n + 1;
+
                 if (n % 2 == 0)
                 {
                     continue;
                 }
+
                 Console.WriteLine("{0}", n);
             }
             */
@@ -80,6 +87,7 @@ namespace Chap_04_Loop
             /*
             int n = 5;
             int i = 1;
+
             while (i <= 10)
             {
                 Console.WriteLine("{0} X {1} = {2}", n, i, n * i);
@@ -92,6 +100,7 @@ namespace Chap_04_Loop
             /*
             int n = 5;
             int i;
+
             for (i = 1; i <= 10; i = i + 1)
             {
                 Console.WriteLine("{0} X {1} = {2}", n, i, n * i);
@@ -111,10 +120,13 @@ namespace Chap_04_Loop
             /*
             int n = 5;
             int i = 1;
+
             for ( ; ; )
             {
                 Console.WriteLine("{0} X {1} = {2}", n, i, n * i);
+
                 i = i + 1;
+
                 if (i > 10)
                 {
                     break;
@@ -128,6 +140,7 @@ namespace Chap_04_Loop
             int m, n = 5;
             int i;
             m = 0;
+
             for (i = 1; i <= 10; i = i + 1)
             {
                 m = m + n;
@@ -139,6 +152,7 @@ namespace Chap_04_Loop
             #region Code: 4.10
             /*
             int n, i;
+
             for (n = 1; n <= 20; n = n + 1)
             {
                 for (i = 1; i <= 10; i = i + 1)
@@ -152,9 +166,11 @@ namespace Chap_04_Loop
             #region Code: 4.10 Ex
             /*
             int m, n, i;
+
             for (n = 1; n <= 20; n = n + 1)
             {
                 m = 0;
+
                 for (i = 1; i <= 10; i = i + 1)
                 {
                     m = m + n;
@@ -167,6 +183,7 @@ namespace Chap_04_Loop
             #region Code: 4.11
             /*
             int a, b, c;
+
             for (a = 1; a <= 3; a++)
             {
                 for (b = 1; b <= 3; b++)
@@ -183,6 +200,7 @@ namespace Chap_04_Loop
             #region Code: 4.12
             /*
             int a, b, c;
+
             for (a = 1; a <= 3; a++)
             {
                 for (b = 1; b <= 3 && b != a; b++)
@@ -199,6 +217,7 @@ namespace Chap_04_Loop
             #region Code: 4.13
             /*
             int a, b, c;
+
             for (a = 1; a <= 3; a++)
             {
                 for (b = 1; b <= 3; b++)
@@ -221,6 +240,7 @@ namespace Chap_04_Loop
             #region Code: 4.14
             /*
             int a, b, c;
+
             for (a = 1; a <= 3; a++)
             {
                 for (b = 1; b <= 3; b++)

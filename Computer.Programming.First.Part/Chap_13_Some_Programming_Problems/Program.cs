@@ -10,6 +10,7 @@ namespace Chap_13_Some_Programming_Problems
             /*
             int row, col, n;
             n = Convert.ToInt32(Console.ReadLine());
+
             for (row = n; row >= 1; row--)
             {
                 for (col = 1; col <= row; col++)
@@ -18,6 +19,7 @@ namespace Chap_13_Some_Programming_Problems
                 }
                 Console.WriteLine();
             }
+
             for (row = 2; row <= n; row++)
             {
                 for (col = 1; col <= row; col++)
@@ -33,6 +35,7 @@ namespace Chap_13_Some_Programming_Problems
             /*
             int row, col, space, n;
             n = Convert.ToInt32(Console.ReadLine());
+
             for (row = n; row >= 1; row--)
             {
                 for (space = 1; space <= n - row; space++)
@@ -45,6 +48,7 @@ namespace Chap_13_Some_Programming_Problems
                 }
                 Console.WriteLine();
             }
+
             for (row = 2; row <= n; row++)
             {
                 for (space = 1; space <= n - row; space++)
@@ -64,6 +68,7 @@ namespace Chap_13_Some_Programming_Problems
             /*
             int row, col, space, n;
             n = Convert.ToInt32(Console.ReadLine());
+
             for (row = n; row >= 1; row--)
             {
                 for (space = 1; space <= n - row; space++)
@@ -76,6 +81,7 @@ namespace Chap_13_Some_Programming_Problems
                 }
                 Console.WriteLine();
             }
+
             for (row = 2; row <= n; row++)
             {
                 for (space = 1; space <= n - row; space++)
@@ -95,20 +101,24 @@ namespace Chap_13_Some_Programming_Problems
             /*
             int row, col, space, n;
             n = Convert.ToInt32(Console.ReadLine());
+
             for (row = n; row >= 1; row--)
             {
                 for (col = n; col >= row; col--)
                 {
                     Console.Write("c");
                 }
+
                 for (space = 2; space <= row; space++)
                 {
                     Console.Write(" ");
                 }
+
                 for (space = 2; space <= row; space++)
                 {
                     Console.Write(" ");
                 }
+
                 for (col = n; col >= row; col--)
                 {
                     Console.Write("c");
@@ -122,17 +132,22 @@ namespace Chap_13_Some_Programming_Problems
             /*
             char[] word = new char[80];
             char[] reverse_word = new char[80];
+
             int i, j, len;
             word = Console.ReadLine().ToCharArray();
             len = word.Length;
+
             for (i = 0, j = len - 1; i < len; i++, j--)
             {
                 reverse_word[i] = word[j];
             }
+
             reverse_word[i] = '\0';
             Console.WriteLine(reverse_word);
+
             string str1 = new string(word);
             string str2 = new string(reverse_word);
+
             if (0 == str1.CompareTo(str2))
             {
                 Console.WriteLine("{0} is palindrome.", str1);
@@ -148,8 +163,10 @@ namespace Chap_13_Some_Programming_Problems
             /*
             char[] word = new char[80];
             int i, j, len, rev = 0;
+
             word = Console.ReadLine().ToCharArray();
             len = word.Length;
+
             for (i = 0, j = len - 1; i < len; i++, j--)
             {
                 if (word[i] != word[j])
@@ -158,7 +175,9 @@ namespace Chap_13_Some_Programming_Problems
                     break;
                 }
             }
+
             string str = new string(word);
+
             if (0 == rev)
             {
                 Console.WriteLine("{0} is palindrome.", str);
@@ -175,6 +194,7 @@ namespace Chap_13_Some_Programming_Problems
             Console.Write("Enter a number (2 - 99): ");
             int i, number, prime_position, total;
             number = Convert.ToInt32(Console.ReadLine());
+            
             int[] primes = 
             {
                 2,  3,  5,  7,  11,
@@ -183,15 +203,18 @@ namespace Chap_13_Some_Programming_Problems
                 53, 59, 61, 67, 71, 
                 73, 79, 83, 89, 97
             };
+            
             for (i = 0; i < number; i++)
             {
                 prime_position = primes[i];
                 total = 0;
+
                 while (prime_position <= number)
                 {
                     total = total + (number / prime_position);
                     prime_position = prime_position * primes[i];
                 }
+
                 if (total != 0 && primes[i] <= number)
                 {
                     Console.WriteLine("({0}, {1})", primes[i], total);
@@ -205,9 +228,11 @@ namespace Chap_13_Some_Programming_Problems
             int[] ara1 = { 3, 1, 5, 2, 4 };
             int[] ara2 = new int[5];
             int i, minimum, index_2;
+
             for (index_2 = 0; index_2 < 5; index_2++)
             {
                 minimum = 10000;
+
                 for (i = 0; i < 5; i++)
                 {
                     if (ara1[i] < minimum)
@@ -215,8 +240,10 @@ namespace Chap_13_Some_Programming_Problems
                         minimum = ara1[i];
                     }
                 }
+
                 ara2[index_2] = minimum;
             }
+
             for (i = 0; i < 5; i++)
             {
                 Console.WriteLine("{0}", ara2[i]);
@@ -229,9 +256,11 @@ namespace Chap_13_Some_Programming_Problems
             int[] ara1 = { 3, 1, 5, 2, 4 };
             int[] ara2 = new int[5];
             int i, minimum, index_2, minimum_index = 0;
+
             for (index_2 = 0; index_2 < 5; index_2++)
             {
                 minimum = 10000;
+
                 for (i = 0; i < 5; i++)
                 {
                     if (ara1[i] < minimum)
@@ -240,9 +269,11 @@ namespace Chap_13_Some_Programming_Problems
                         minimum_index = i;
                     }
                 }
+
                 ara1[minimum_index] = 10000;
                 ara2[index_2] = minimum;
             }
+
             for (i = 0; i < 5; i++)
             {
                 Console.WriteLine("{0}", ara2[i]);
@@ -254,13 +285,17 @@ namespace Chap_13_Some_Programming_Problems
             /*
             int x, y;
             char c;
+
             Console.Write("Please enter the initial position: ");
             var line = Console.ReadLine().Split(' ');
+
             x = Convert.ToInt32(line[0]);
             y = Convert.ToInt32(line[1]);
+            
             while (true)
             {
                 c = Convert.ToChar(Console.ReadLine());
+
                 if (c.Equals('S'))
                 {
                     break;
@@ -282,6 +317,7 @@ namespace Chap_13_Some_Programming_Problems
                     y--;
                 }
             }
+
             Console.WriteLine("Final position of the robot is: {0}, {1}", x, y);
             */
             #endregion
