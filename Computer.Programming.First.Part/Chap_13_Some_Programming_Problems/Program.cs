@@ -292,6 +292,38 @@ namespace Chap_13_Some_Programming_Problems
             */
             #endregion
 
+            #region Code: 13.3 Ex
+            /*
+            int[] ara = { 3, 1, 5, 2, 4 };
+            int i, j, index_min, temp;
+
+            for (i = 0; i < 5; i++)
+            {
+                index_min = i;
+
+                for (j = i + 1; j < 5; j++)
+                {
+                    if (ara[j] < ara[index_min])
+                    {
+                        index_min = j;
+                    }
+                }
+
+                if (index_min != i)
+                {
+                    temp = ara[i];
+                    ara[i] = ara[index_min];
+                    ara[index_min] = temp;
+                }
+            }
+
+            for (i = 0; i < 5; i++)
+            {
+                Console.WriteLine("{0}", ara[i]);
+            }
+            */
+            #endregion
+
             #region Code: 13.4
             /*
             int x, y;
