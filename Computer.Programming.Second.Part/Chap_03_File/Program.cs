@@ -89,7 +89,7 @@ namespace Chap_03_File
             */
             #endregion
 
-            #region Code: 3-6
+            #region Code: 3-5 Ex
             /*
             string math_input = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\math.txt";
             string bangla_input = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\bangla.txt";
@@ -144,6 +144,67 @@ namespace Chap_03_File
             Console.WriteLine();
 
             outputStreamWriter.Close();
+            */
+            #endregion
+
+            #region Code: 3-6
+            /*
+            string sourceFile = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\image1.jpg";
+            string targetFile = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\image2.jpg";
+
+            try
+            {
+                File.Copy(sourceFile, targetFile, true);
+            }
+            catch (IOException iox)
+            {
+                Console.WriteLine(iox.Message);
+            }
+            */
+            #endregion
+
+            #region Code: 3-7
+            /*
+            string sourceFile = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\in.txt";
+
+            FileStream fileStream = new FileStream(sourceFile, FileMode.Open, FileAccess.Read);
+            fileStream.Seek(0, SeekOrigin.Begin);
+            Console.WriteLine(Convert.ToChar(fileStream.ReadByte()));
+
+            fileStream.Seek(1, SeekOrigin.Begin);
+            Console.WriteLine(Convert.ToChar(fileStream.ReadByte()));
+
+            fileStream.Seek(0, SeekOrigin.Begin);
+            Console.WriteLine(Convert.ToChar(fileStream.ReadByte()));
+
+            fileStream.Close();
+            */
+            #endregion
+
+            #region Code: 3-8
+            /*
+            string sourceFile = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\in.txt";
+            FileInfo fileInfo = new FileInfo(sourceFile);
+
+            Console.WriteLine($"File name: {Path.GetFileName(sourceFile)}");
+            Console.WriteLine($"File size byte: {fileInfo.Length} bytes");
+            Console.WriteLine($"File size (KiloByte): {fileInfo.Length / 1024} KiloByte");
+            */
+            #endregion
+
+            #region Code: 3-9
+            /*
+            string sourceFile = @"D:\Code\GitHub\Structured-Programming\Computer.Programming.Second.Part\Chap_03_File\image2.jpg";
+
+            if (File.Exists(sourceFile))
+            {
+                File.Delete(sourceFile);
+                Console.WriteLine($"{Path.GetFileName(sourceFile)} remove successfully");
+            }
+            else
+            {
+                Console.WriteLine("File Removed Failed");
+            }
             */
             #endregion
         }
