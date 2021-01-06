@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_04_Recursion", "Chap_0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_05_Bitwise_Operation", "Chap_05_Bitwise_Operation\Chap_05_Bitwise_Operation.csproj", "{9836904B-D36B-4BDF-8F87-8AF475F865E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap_06_Structure", "Chap_06_Structure\Chap_06_Structure.csproj", "{4D1D4C1B-8EFE-4065-90AD-830A8773DFF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_06_Structure", "Chap_06_Structure\Chap_06_Structure.csproj", "{4D1D4C1B-8EFE-4065-90AD-830A8773DFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap_07_More_Pointer", "Chap_07_More_Pointer\Chap_07_More_Pointer.csproj", "{CE49580F-3597-4A8E-B483-58DEE792D035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4D1D4C1B-8EFE-4065-90AD-830A8773DFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1D4C1B-8EFE-4065-90AD-830A8773DFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1D4C1B-8EFE-4065-90AD-830A8773DFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE49580F-3597-4A8E-B483-58DEE792D035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE49580F-3597-4A8E-B483-58DEE792D035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE49580F-3597-4A8E-B483-58DEE792D035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE49580F-3597-4A8E-B483-58DEE792D035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
