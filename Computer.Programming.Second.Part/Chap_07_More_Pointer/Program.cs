@@ -6,7 +6,7 @@ namespace Chap_07_More_Pointer
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hello World!");
         }
     }
 }
