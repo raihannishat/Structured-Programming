@@ -232,6 +232,78 @@ namespace Chap_07_More_Pointer
             Console.WriteLine($"Result : {Operator(Sub, n1, n2)}");
             */
             #endregion
+
+            #region Code: 7-11
+            /*
+            int[] values = new int[] { 65, 6, 100, 1, 250 };
+
+            Array.Sort(values);
+
+            Array.ForEach(values, item => Console.Write($"{item} "));
+            */
+            #endregion
+
+            #region Code: 7-12
+            /*
+            int[] values = new int[] { 1, 2, 5, 8, 10 };
+            int key, item;
+
+            while (true)
+            {
+                Console.Write("Enter the value of the key (0 to exit): ");
+                key = int.Parse(Console.ReadLine());
+
+                if (key.Equals(0))
+                {
+                    break;
+                }
+                
+                item = Array.BinarySearch(values, key);
+
+                if (item >= 0)
+                {
+                    Console.WriteLine($"Item found {item + 1} position");
+                }
+                else
+                {
+                    Console.WriteLine("Item not found in array");
+                }
+            }
+            */
+            #endregion
+
+            #region Code: 7-12 Ex
+            /*
+            int[] values = new int[] { 1, 2, 5, 8, 10, -5, -10, -15 };
+            int key, item;
+
+            Array.Sort(values);
+            Array.ForEach(values, item => Console.Write($"{item} "));
+            Console.WriteLine();
+
+            while (true)
+            {
+                Console.Write("Enter the value of the key (0 to exit): ");
+                key = int.Parse(Console.ReadLine());
+
+                if (key.Equals(0))
+                {
+                    break;
+                }
+
+                item = Array.BinarySearch(values, key);
+
+                if (item >= 0)
+                {
+                    Console.WriteLine($"Item found {item + 1} position");
+                }
+                else
+                {
+                    Console.WriteLine("Item not found in array");
+                }
+            }
+            */
+            #endregion
         }
 
         #region Function: 7-9
