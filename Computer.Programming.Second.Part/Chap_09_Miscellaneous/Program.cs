@@ -3,6 +3,7 @@ using System.IO;
 
 namespace Chap_09_Miscellaneous
 {
+    /*
     public unsafe struct IP
     {
         public int* ip;
@@ -17,6 +18,7 @@ namespace Chap_09_Miscellaneous
     {
         FileAccess fileAccess; 
     }
+    */
 
     unsafe class Program
     {
