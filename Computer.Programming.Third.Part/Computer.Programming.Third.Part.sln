@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_03_Searching_Algorithm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_04_Sorting_Algorithm", "Chap_04_Sorting_Algorithm\Chap_04_Sorting_Algorithm.csproj", "{6140134B-332B-48BF-AFA8-7F4A8BC759D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap_05_Stack_And_Queue", "Chap_05_Stack_And_Queue\Chap_05_Stack_And_Queue.csproj", "{024F626E-5A42-440A-9266-14804B0A1124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap_05_Stack_And_Queue", "Chap_05_Stack_And_Queue\Chap_05_Stack_And_Queue.csproj", "{024F626E-5A42-440A-9266-14804B0A1124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap_06_Linked_List", "Chap_06_Linked_List\Chap_06_Linked_List.csproj", "{2744C9D0-1DB0-41B9-852E-785EC7F2EB76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{024F626E-5A42-440A-9266-14804B0A1124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024F626E-5A42-440A-9266-14804B0A1124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024F626E-5A42-440A-9266-14804B0A1124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2744C9D0-1DB0-41B9-852E-785EC7F2EB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2744C9D0-1DB0-41B9-852E-785EC7F2EB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2744C9D0-1DB0-41B9-852E-785EC7F2EB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2744C9D0-1DB0-41B9-852E-785EC7F2EB76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

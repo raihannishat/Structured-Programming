@@ -6,82 +6,127 @@ namespace Chap_05_Stack_And_Queue
     {
         static void Main(string[] args)
         {
-            //Stack my_stack = new Stack();
+            #region Stack
+            /*
+            MyStack stack = new MyStack();
+            Stack myStack = new Stack();
+            int item;
 
-            //my_stack.Push(1);
-            //my_stack.Push(2);
-            //my_stack.Push(3);
+            myStack.top = 0;
 
-            //Console.WriteLine(my_stack.Pop());
-            //Console.WriteLine(my_stack.Pop());
-            //Console.WriteLine(my_stack.Pop());
-            //Console.WriteLine(my_stack.Pop());
+            stack.Push(myStack, 1);
+            stack.Push(myStack, 2);
+            stack.Push(myStack, 3);
 
-            //Balanced balanced = new Balanced();
+            item = stack.Pop(myStack);
+            Console.WriteLine($"{item}");
 
-            //string input = Console.ReadLine();
+            item = stack.Pop(myStack);
+            Console.WriteLine($"{item}");
 
-            //if (Convert.ToBoolean(balanced.is_balanced(input.ToCharArray())))
-            //{
-            //    Console.WriteLine($"{input} is balanced");
-            //}
-            //else
-            //{
-            //    Console.WriteLine($"{input} is not balanced");
-            //}
+            item = stack.Pop(myStack);
+            Console.WriteLine($"{item}");
+            */
+            #endregion
 
-            //Bracket bracket = new Bracket();
+            #region IsBalanced
+            /*
+            string input = Console.ReadLine();
 
-            //var str = "[({})]";
+            MyStack stack = new MyStack();
 
-            //if (bracket.IsBalanced(str))
-            //{
-            //    Console.WriteLine($"{str} is balanced");
-            //}
-            //else
-            //{
-            //    Console.WriteLine($"{str} is not balanced");
-            //}
+            if (Convert.ToBoolean(stack.IsBalanced(input.ToCharArray())))
+            {
+                Console.WriteLine($"{input} is balanced");
+            }
+            else
+            {
+                Console.WriteLine($"{input} is not balanced");
+            }
+            */
+            #endregion
 
-            Queue my_q = new Queue(5);
+            #region BracketIsBalanced
+            /*
+            MyStack stack = new MyStack();
+            var str = "{{([])}}";
 
-            my_q.Enqueue(1);
-            Console.WriteLine($"tail = {my_q.tail}");
-            
-            my_q.Enqueue(2);
-            Console.WriteLine($"tail = {my_q.tail}");
-            
-            my_q.Enqueue(3);
-            Console.WriteLine($"tail = {my_q.tail}");
-            
-            my_q.Enqueue(4);
-            Console.WriteLine($"tail = {my_q.tail}");
-            
-            my_q.Enqueue(5);
-            Console.WriteLine($"tail = {my_q.tail}");
+            if (stack.BracketIsBalanced(str))
+            {
+                Console.WriteLine($"{str} is balanced");
+            }
+            else
+            {
+                Console.WriteLine($"{str} is not balanced");
+            }
+            */
+            #endregion
 
-            my_q.Enqueue(6);
-            Console.WriteLine($"tail = {my_q.tail}");
+            #region Browser
+            /*
+            Browser browser = new Browser();
 
-            my_q.Display();
+            browser.Browse("https://www.google.com");
+            browser.Browse("https://www.facebook.com");
+            browser.Browse("https://www.youtube.com");
+            browser.Browse("https://www.github.com");
 
-            my_q.Dequeue();
-            my_q.Head();
+            Console.WriteLine(browser.Back());
 
-            my_q.Dequeue();
-            my_q.Head();
+            browser.Browse("https://www.bing.com");
+            browser.Browse("https://www.wikipedia.org");
 
-            my_q.Dequeue();
-            my_q.Head();
+            Console.WriteLine(browser.Back());
+            Console.WriteLine(browser.Forword());
+            */
+            #endregion
 
-            my_q.Dequeue();
-            my_q.Head();
+            #region Queue
+            MyQueue queue = new MyQueue();
+            Queue myQueue = new Queue();
+            int item;
 
-            my_q.Dequeue();
-            my_q.Head();
+            myQueue.Head = 0;
+            myQueue.Tail = 0;
 
-            my_q.Dequeue();
-            my_q.Head();
+            queue.Enqueue(myQueue, 1);
+            Console.WriteLine($"tail = {myQueue.Tail}");
+
+            queue.Enqueue(myQueue, 2);
+            Console.WriteLine($"tail = {myQueue.Tail}");
+
+            queue.Enqueue(myQueue, 3);
+            Console.WriteLine($"tail = {myQueue.Tail}");
+
+            queue.Enqueue(myQueue, 4);
+            Console.WriteLine($"tail = {myQueue.Tail}");
+
+            queue.Enqueue(myQueue, 5);
+            Console.WriteLine($"tail = {myQueue.Tail}");
+
+            queue.Enqueue(myQueue, 6);
+            Console.WriteLine($"tail = {myQueue.Tail}");
+
+            Console.WriteLine($"beginning head = {myQueue.Head}");
+
+            item = queue.Dequeue(myQueue);
+            Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+
+            item = queue.Dequeue(myQueue);
+            Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+
+            item = queue.Dequeue(myQueue);
+            Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+
+            item = queue.Dequeue(myQueue);
+            Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+
+            item = queue.Dequeue(myQueue);
+            Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+
+            item = queue.Dequeue(myQueue);
+            Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+            #endregion
         }
     }
 }
