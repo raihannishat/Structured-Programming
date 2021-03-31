@@ -82,6 +82,7 @@ namespace Chap_05_Stack_And_Queue
             #endregion
 
             #region Queue
+            /*
             MyQueue queue = new MyQueue();
             Queue myQueue = new Queue();
             int item;
@@ -126,6 +127,7 @@ namespace Chap_05_Stack_And_Queue
 
             item = queue.Dequeue(myQueue);
             Console.WriteLine($"item = {item}, head = {myQueue.Head}");
+            */
             #endregion
         }
     }
