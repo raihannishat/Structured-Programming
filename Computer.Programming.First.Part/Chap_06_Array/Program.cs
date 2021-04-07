@@ -194,6 +194,7 @@ namespace Chap_06_Array
             for (i = 0; i < 12; i++)
             {
                 marks_count[total_marks[i]]++;
+
                 for (j = 0; j <= 10; j++)
                 {
                     Console.Write("{0} ", marks_count[j]);

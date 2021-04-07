@@ -7,6 +7,6 @@ namespace Chap_06_Linked_List
     public class Node
     {
         public Node next;
-        public object data;
+        public int data;
     }
 }
